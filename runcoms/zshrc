@@ -12,3 +12,5 @@ fi
 
 # Customize to your needs...
 
+# aliases
+alias s='TERM=rxvt-unicode ssh'
