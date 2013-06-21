@@ -12,5 +12,8 @@ fi
 
 # Customize to your needs...
 
+# exports
+export GREP_COLOR='37'
+
 # aliases
 alias s='TERM=rxvt-unicode ssh'
