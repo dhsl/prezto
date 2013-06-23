@@ -67,7 +67,7 @@ zstyle ':prezto:module:editor' keymap 'vi'
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:history-substring-search:color' found ''
+zstyle ':prezto:module:history-substring-search:color' found 'fg=white'
 
 # Set the query not found color.
 # zstyle ':prezto:module:history-substring-search:color' not-found ''
