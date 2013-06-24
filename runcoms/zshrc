@@ -17,3 +17,8 @@ export GREP_COLOR='37'
 
 # aliases
 alias s='TERM=rxvt-unicode ssh'
+
+# load virtualenv if available
+if [ -e /usr/bin/virtualenvwrapper.sh ]; then
+    source /usr/bin/virtualenvwrapper.sh
+fi
